@@ -1,0 +1,133 @@
+body{
+    background-image: url(sawah.jpg);
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+.top{
+    padding: 15px;
+    padding-top: 0%;
+    margin-top: 0;
+    height: 10px;
+    width: 100%;
+    background-color:black;
+    
+}
+.top ul strong{
+    color: aqua;
+    font-weight: bold;
+    padding-right: 400px;
+}
+.top ul li{
+    display: inline-block;
+    padding: 7px;
+}
+.top a{
+    text-decoration: none;
+    color:aqua;
+    font-weight: bold;
+}
+.container{
+    max-width: 1000px;
+    margin: 20px auto;
+    background: #fff;
+    overflow: hidden;
+    padding: 10px;
+}
+.header{
+    height: 300px;
+    background-image: url(sungai.jpg);
+    background-position: 0 -150px;
+    border: 1px solid #dedede;
+    padding: 10px;
+    padding-top: 0px;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+/* Bagian Main */
+.middle{
+    width: 650px;
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+.left{
+    width: 250px;
+    border: 1px solid #dedede;
+    background: #eaeaea;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    }
+.middle img{
+            max-width: 100%;
+            height: auto;
+        }
+.right{
+        width: 250px;
+        border: 1px solid #dedede;
+        padding: 10px;
+        margin: 10px;
+        float: left;
+    }
+.footer{
+    text-align: center;
+    clear: both;
+    border: 2px solid #2d2d2d;
+    color: #fff;
+    background-color: #2d2d2d;
+    padding: 10px;
+    margin: 10px;
+}
+.footer a{
+        color: #fff;
+    }
+.footer a:hover{
+            color: #eaeaea;
+        }
+        @media screen and (max-width: 1080px) {
+    
+            .container {
+                width: 100%;
+            }
+            .left {
+                width: 25%;
+                background-color: #89d0ff;
+            }
+            .middle {
+                width: 68%;
+                float: right;
+            }
+            
+            .right {
+                clear: both;
+                padding: 1% 4%;
+                width: auto;
+                float: none;
+            }
+        }
+
+        @media screen and (max-width: 780px) {
+    
+            .header, 
+            .footer{
+                text-align: center;
+            }
+            .left {
+                width: auto;
+                float: none;
+            }
+            
+            .middle {
+                width: auto;
+                float: none;
+            }
+            
+            .right {
+                width: auto;
+                float: none;
+            }
+        }
